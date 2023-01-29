@@ -11,7 +11,6 @@ from pathlib2 import Path
 options = ["Clone Flipper Zero Repo", "Change Name", "Create"]
 
 term = TerminalMenu(options)
-#menu_entry_index = term.show()
 
 while True:
 	menu_entry_index = term.show()
